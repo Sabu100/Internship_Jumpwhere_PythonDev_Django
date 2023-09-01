@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment1(A)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">JumpWhere</a>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Sign up</a>
+        <a href="#">Sign in</a>
+        <form action="/search">
+          <input type="text" name="q" placeholder="What are you looking for?" />
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+    <hr />
+    <br />
+    <div class="alert">
+      <marquee>
+        Internship Jobs Vacancy – Quality Analyst Intern Job Opening at Vertoz
+        OOP – Object-Oriented Programming Concepts in Instagram, Snapchat and
+        Whatsapp Tips for Freshers Technical Interview questions for IT for NON
+        IT background.</marquee
+      >
+    </div>
+    <div class="container">
+      <div class="box">
+        <img src="assests/img1.jpg" alt="Image 1" />
+        <h2>Android Devloper Fresher</h2>
+        <p>
+          We are looking for an Android Developer pioneer to join our team. This
+          position offers an inspirational space to create the next innovation
+          in mobile applications.
+        </p>
+        <a href="#">Apply</a>
+      </div>
+      <div class="box">
+        <img src="assests/img2.jpg" alt="Image 2" />
+        <h2>Software Developer Role</h2>
+        <p>
+          We are looking for an adept Software Developer. You will develop
+          top-notch software that work across platforms and is scalable.
+        </p>
+        <a href="#">Apply</a>
+      </div>
+      <div class="box">
+        <img src="assests/img3.jpg" alt="Image 3" />
+        <h2>front-end Developer</h2>
+        <p>
+          We are looking for a dynamic front-end developer. You will work on a
+          diverse set of unique and challenging projects that allow users to
+          seamlessly interact with technology.
+        </p>
+        <a href="#">Apply</a>
+      </div>
+    </div>
+
+    <header class="header2">
+      <h1>JumpWhere Services</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Jobs</h2>
+        <p>
+          We offer a variety of job opportunities, including full-time,
+          part-time, and remote positions. Our jobs are designed to challenge
+          and inspire our employees, and we offer competitive salaries and
+          benefits.
+        </p>
+        <ul>
+          <li>Software Engineer</li>
+          <li>Data Scientist</li>
+          <li>Product Manager</li>
+          <li>Marketing Manager</li>
+          <li>Sales Representative</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Internships</h2>
+        <p>
+          We offer internships for students who are interested in gaining
+          experience in the tech industry. Our internships are paid, and interns
+          have the opportunity to work on real-world projects.
+        </p>
+        <ul>
+          <li>Software Engineering Internship</li>
+          <li>Data Science Internship</li>
+          <li>Product Management Internship</li>
+          <li>Marketing Internship</li>
+          <li>Sales Internship</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Hackathons</h2>
+        <p>
+          We host hackathons throughout the year to encourage innovation and
+          collaboration. Our hackathons are open to anyone, and participants
+          have the opportunity to win prizes.
+        </p>
+        <ul>
+          <li>JumpWhere 1.0</li>
+          <li>JumpWhere 2.0</li>
+          <li>JumpWhere 3.0</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Mock Interviews</h2>
+        <p>
+          We offer mock interviews to help candidates prepare for job
+          interviews. Our mock interviews are conducted by experienced
+          professionals, and candidates receive feedback on their performance.
+        </p>
+        <ul>
+          <li>Mock Interview on Software Dev</li>
+          <li>Mock Interview on Full stack developer</li>
+        </ul>
+      </section>
+    </main>
+    <main class="jumpvey">
+      <p id="description">Lets Connect!...........</p>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email" id="email-label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="number" id="number-label">Age:</label>
+          <input
+            type="number"
+            id="number"
+            name="age"
+            placeholder="Enter your age"
+            min="18"
+            max="99"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dropdown">Select an option:</label>
+          <select id="dropdown" name="option">
+            <option value="option1">Internships</option>
+            <option value="option2">Jobs</option>
+            <option value="option2">Mock interviews</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Choose Gender:</label>
+          <input type="radio" name="radio-option" value="radio1" /> Male
+          <input type="radio" name="radio-option" value="radio2" /> Female
+          <input type="radio" name="radio-option" value="radio1" /> Others
+        </div>
+
+        <div class="form-group">
+          <label>How do you know us:</label>
+          <input type="checkbox" name="checkbox-option" value="checkbox1" />
+          Linkedin
+          <input type="checkbox" name="checkbox-option" value="checkbox2" />
+          Website
+          <input type="checkbox" name="checkbox-option" value="checkbox2" />
+          Youtube
+        </div>
+
+        <div class="form-group">
+          <label for="comments">Feedbacks:</label>
+          <textarea
+            id="comments"
+            name="comments"
+            placeholder="Enter your comments"
+          ></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <p>Copyright © 2023 JumpWhere by Sabanna. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
